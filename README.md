@@ -1,5 +1,5 @@
 # これは何？
-Xcode用コードジェネレータ[Generamba](https://github.com/rambler-digital-solutions/Generamba)のためのVIPERテンプレートです。
+Xcode用コードジェネレータ[Generamba](https://github.com/rambler-digital-solutions/Generamba)のためのVIPERテンプレートです。  
 命名や構成は[こちら](https://github.com/pedrohperalta/Articles-iOS-VIPER)に沿っています。
 
 # 使い方(git)
@@ -14,7 +14,8 @@ templates:
 - {name: my_viper}
 ```
 
-3) `generamba gen [モジュール名] my_viper`でモジュール作れます
+3) `generamba template install`でテンプレートを導入
+4) `generamba gen [モジュール名] my_viper`でモジュール作れます
 
 # 使い方(ファイル)
 1) プロジェクトのルートディレクトリで`generamba setup`
@@ -27,4 +28,5 @@ templates:
 - {name: my_viper, local: '/絶対パス/my_viper/'}
 ```
 
-3) `generamba gen [モジュール名] my_viper`でモジュール作れます
+4) `generamba template install`でテンプレートを導入
+5) `generamba gen [モジュール名] my_viper`でモジュール作れます
