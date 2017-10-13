@@ -1,0 +1,24 @@
+# Template information section
+name: "my_viper"
+summary: "from article sample"
+author: "Yuta Kawabe"
+version: "0.1.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+# Contract layer
+- {name: Contract/Contract.swift, path: Code/Contract/contract.swift.liquid}
+
+# View layer
+- {name: View/ViewController.swift, path: Code/View/viewcontroller.swift.liquid}
+
+# Presenter layer
+- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
+
+# Interactor layer
+- {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
+
+# Router layer
+- {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
