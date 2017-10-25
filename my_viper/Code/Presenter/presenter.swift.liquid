@@ -1,5 +1,5 @@
 //
-//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.file_name }}
 //  {{ module_info.project_name }}
 //
 //  Created by {{ developer.name }} on {{ date }}.
@@ -7,7 +7,7 @@
 //
 
 class {{ module_info.name }}Presenter: {{ module_info.name }}Presentation {
-
+    
     weak var view: {{ module_info.name }}View?
     var interactor: {{ module_info.name }}UseCase!
     var router: {{ module_info.name }}Wireframe!

@@ -1,5 +1,5 @@
 //
-//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.file_name }}
 //  {{ module_info.project_name }}
 //
 //  Created by {{ developer.name }} on {{ date }}.
@@ -25,7 +25,7 @@ protocol {{ module_info.name }}InteractorOutput: class {
 }
 
 protocol {{ module_info.name }}UseCase: class {
-    weak var output: {{ module_info.name }}InteractorOutput! { get set }
+    weak var output: {{ module_info.name }}InteractorOutput? { get set }
     
 }
 
