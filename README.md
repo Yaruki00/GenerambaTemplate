@@ -18,7 +18,7 @@ View, Presenter, Builder, Wireframeを生成します。
 ```
 ### Templates
 catalogs:
-- 'https://github.com/Yaruki00/GenerambaVIPERTemplate'
+- 'https://github.com/Yaruki00/GenerambaTemplate'
 templates:
 - {name: my_viper} # 使いたいテンプレートを選択
 - {name: my_presentation} # 使いたいテンプレートを選択
