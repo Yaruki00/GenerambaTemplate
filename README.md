@@ -8,7 +8,7 @@ Contract, View, Presenter, Interactor, Routerを生成します。
 詳細は中身を見てください:stuck_out_tongue_winking_eye:
 
 ## my_presentation(MVPのPresentationモジュール生成)
-View, Presenter, Builder, Wireframeを生成します。
+View, Presenter, Builder, Wireframeを生成します。  
 詳細は中身を:stuck_out_tongue_closed_eyes::stuck_out_tongue_closed_eyes:
 
 # 使い方(git)
