@@ -1,0 +1,17 @@
+# Template information section
+name: "my_presentation"
+summary: "for MVVM presentation layer"
+author: "Yuta Kawabe"
+version: "0.1.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+
+# View
+- {name: View/ViewController.swift, path: Code/View/viewcontroller.swift.liquid}
+- {name: View/ViewController.storyboard, path: Code/View/viewcontroller.storyboard.liquid}
+
+# ViewModel
+- {name: ViewModel/ViewModel.swift, path: Code/ViewModel/viewmodel.swift.liquid}
